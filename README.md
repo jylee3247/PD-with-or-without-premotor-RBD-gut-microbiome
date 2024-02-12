@@ -1,4 +1,4 @@
-# Associated manuscript
+# Info
 This repository includes custom codes used for the analyses of this manuscripts.<br/>
 The codes have been tested on Ubuntu20.04
 - Title: Distinct gut microbiome characteristics in patients with Parkinson’s disease based on the presence of premotor rapid-eye movement sleep behavior disorders: exploring the alpha-synuclein pathways
