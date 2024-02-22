@@ -24,4 +24,4 @@ The codes have been tested on Ubuntu20.04
     - `binQC.py`: Assessing quality of MAGs using [CheckM](https://github.com/Ecogenomics/CheckM).
     - `cazyme_prediction.py`: Running [run_dbCAN](https://github.com/linnabrown/run_dbcan) for MAG CAZyme prediction.
     - `taxonomy_classification.py`: Running [GTDB-Tk](https://github.com/Ecogenomics/GTDBTk) for MAG taxonomy classification.
-    - `gene_coverage_calculation.py`: Running featureCounts from [Subread](https://subread.sourceforge.net/) for CAZyme abundance calculation. The abundances are further normalized by gene length.
+    - `gene_coverage_calculation.py`: Running `featureCounts` from [Subread](https://subread.sourceforge.net/) for CAZyme abundance calculation. The abundances are further normalized by gene length.
