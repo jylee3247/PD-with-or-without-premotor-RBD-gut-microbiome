@@ -11,7 +11,7 @@ The codes have been tested on Ubuntu20.04
   - After primer trimming, the data were imported to [Qiime2 platform](https://qiime2.org/) for further analyses: denoising, taxonomy classification, filtering and phylogenetic tree construction.
  
 * **Shotgun_metagenome**: Custom scripts for shotgun metagenome sequencing data analysis.
-  - biobakery: Script for run [bioBakery] (https://huttenhower.sph.harvard.edu/tools/) tools.
+  - biobakery: Script for run [bioBakery](https://huttenhower.sph.harvard.edu/tools/) tools.
     - `run_KneadData.py`: Running [KneadData](https://huttenhower.sph.harvard.edu/kneaddata/) for read QC and host contaminants removal.
     - `run_MetaPhlAn4.py`: Running [MetaPhlAn4](https://huttenhower.sph.harvard.edu/metaphlan) for marker-gene based taxonomy profiling.
     - `run_HUMAnN3.py`: Running [HUMAnN3](https://huttenhower.sph.harvard.edu/humann) for functional profiling based on Uniref90 DB.
