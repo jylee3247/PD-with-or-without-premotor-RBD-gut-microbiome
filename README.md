@@ -25,3 +25,11 @@ The codes have been tested on Ubuntu20.04
     - `cazyme_prediction.py`: Running [run_dbCAN](https://github.com/linnabrown/run_dbcan) for MAG CAZyme prediction.
     - `taxonomy_classification.py`: Running [GTDB-Tk](https://github.com/Ecogenomics/GTDBTk) for MAG taxonomy classification.
     - `gene_coverage_calculation.py`: Running `featureCounts` from [Subread](https://subread.sourceforge.net/) for CAZyme abundance calculation. The abundances are further normalized by gene length.
+
+* **PD-gut-microbiome-dynamics**: Analysis for exploring gut microbiome dynamics of patients with PD according to presence of the premotor RBD and disease progression.
+  - `PD-gut-microbiome-dynamics.R`: R script used for the analysis.
+  - `16S.RData`: 16S rRNA gene amplicon sequencing data for the analysis.
+  - `WGS.RData`: whole shotgun metagenome sequencing data for the analysis.
+  - `utilities.RData`: Utility codes for the analysis.
+
+*All the raw data from the differential abundance analyses are available from the `Additional file 3`.*
