@@ -77,10 +77,10 @@ p <- ggplot(df, aes(x = Axis1, y = Axis2)) +
   scale_color_manual(name = "Group", values = ord.cols, breaks = names(ord.cols), labels = labs) +
   guides(color = guide_legend(override.aes = list(shape = 16, alpha = 1, linetype = "blank", size =6, fill = ord.cols)))
 
-########################################################################
-########## Gut microbiome of patients with PD according to    ##########
-########## the presence of premotor RBD and the disease stage ##########
-########################################################################
+##############################################################################
+########## Gut microbiome of patients with PD according to          ##########
+########## the presence of premotor RBD and the disease progression ##########
+##############################################################################
 
 # Figures 1C, D
 # Examining the beta-diversity between PD patients and HC, considering the duration of PD.
