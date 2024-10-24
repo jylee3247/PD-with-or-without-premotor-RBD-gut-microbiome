@@ -26,6 +26,7 @@ The codes have been tested on Ubuntu20.04
     - `gene_coverage_calculation.py`: Running `featureCounts` from [Subread](https://subread.sourceforge.net/) for CAZyme abundance calculation. The abundances are further normalized by gene length.
   - CAZyme: Script for carbohydrate-active enzyme (CAZyme) analysis.
     - `cazyme_prediction.py`: Running [run_dbCAN](https://github.com/linnabrown/run_dbcan) for MAG CAZyme prediction.
+  - `MAG_CsgA_with_reference_seqs.msa` : A multiple sequence alignment (MSA) file with fasta format. CsgA amino acid sequences were retrevied from the MAGs obatined from current study, and aligned by [Clastal Omega](http://www.clustal.org/omega/) with reference CsgA sequences (UniProt accession numbers `P28307` for *Escherichia coli* and `A0A9Q7ZLG0` for *Citrobacter youngae*).
 
 * **PD-gut-microbiome-dynamics**: Analysis for exploring gut microbiome dynamics of patients with PD according to presence of the premotor RBD and disease progression.
   - `PD-gut-microbiome-dynamics.R`: R script used for the analysis.
