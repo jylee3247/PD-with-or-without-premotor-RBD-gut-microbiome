@@ -24,6 +24,8 @@ The codes have been tested on Ubuntu20.04
     - `binQC.py`: Assessing quality of MAGs using [CheckM](https://github.com/Ecogenomics/CheckM).
     - `taxonomy_classification.py`: Running [GTDB-Tk](https://github.com/Ecogenomics/GTDBTk) for MAG taxonomy classification.
     - `gene_coverage_calculation.py`: Running `featureCounts` from [Subread](https://subread.sourceforge.net/) for CAZyme abundance calculation. The abundances are further normalized by gene length.
+    - `prokka.py`: Running [Prokka](https://github.com/tseemann/prokka) for gene prediction and annotation or MAGs.
+      - Additionally used annotation program, [KofamScan](https://github.com/takaram/kofam_scan), was set up and run according to the developer's instructions.
   - CAZyme: Script for carbohydrate-active enzyme (CAZyme) analysis.
     - `cazyme_prediction.py`: Running [run_dbCAN](https://github.com/linnabrown/run_dbcan) for MAG CAZyme prediction.
   - `MAG_CsgA_with_reference_seqs.msa` : A multiple sequence alignment (MSA) file with fasta format. CsgA amino acid sequences were retrevied from the MAGs obatined from current study, and aligned by [Clastal Omega](http://www.clustal.org/omega/) with reference CsgA sequences (UniProt accession numbers `P28307` for *Escherichia coli* and `A0A9Q7ZLG0` for *Citrobacter youngae*).
